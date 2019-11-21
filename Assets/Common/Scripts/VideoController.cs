@@ -65,7 +65,6 @@ public class VideoController : MonoBehaviour
     public void Play()
     {
         Debug.Log("Play Video");
-        //PauseAudio(false);
         videoPlayer.Play();
         ShowPlayButton(false);
     }
@@ -75,7 +74,6 @@ public class VideoController : MonoBehaviour
         if (videoPlayer)
         {
             Debug.Log("Pause Video");
-            //PauseAudio(true);
             videoPlayer.Pause();
             ShowPlayButton(true);
         }
