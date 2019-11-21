@@ -9,26 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QWFmc0xSai8vLy8vQUFBQUtCbVBwYW5ZQUU2Ymh1Z2R1R21DMndDUXFXZVpoU2lVb2hRWGs5OG5YcTA0ei9sMHpKMmZWa1RiUlpoOU4xdE5qRzFwQ3NtNEdkUHFLcFBDbE1WNnpFaTBzRXB1VjhDd01zcEhFNXE3ZnpVMk8yV1VpdHcrdENvR0VaTlFBaVZuV01ySlNzakZBQWVFQmFwMDZCQk5DR1VyMXQvVU9mTHFGNUVFbk5zaHZJM01GZ0QwYU5ISjFmczZ5c2ovTDRwSVdVQ0IxZlk5NnFVUEJKZWN2WHMzdDBiNm44NXZCZW0vaTFsSkdMZ3hkTVNlT2U4TFE5RmU5NVpZUEJjaGF4K0xnRU5FaXRtUUxwYWorenpKcHIzS0Q3ZVF2TVhmUk1ma3ZlbFJldjlkSDBudWpmbnVFTXpTVE02WUZjNmp3WnNha1JuNzJtUE5vb2RrLy9JeVF4Ti9iZjY3Sng3Zkl2LzQzVkpKeHJSRnVwQ0k=
+    vuforiaLicenseKey: AQC5MMr/////AAABmfahZERTrUEis/RgpONKyk9MX/yNYjrrf9bzCkKCySkrN5ypTr7oBfQzT3FhWm4JlisA2PjuUt1t/exRNgWMdvlc/KtCfhxH72U0BiNhy4SteqHPKnCBiBS06orzznr1EcCqMz6BgvMpjNAqoQRko8170TVM8iK39SWzAHoUdOvIenKx5L/WcZSGieZEgzycGsbevWw0H1Vl3YNKb2HkyGG7CLvVHqzBR7DefiwExo3NDy8qeV6+SOl53MwA1mU9UkNK7ocKyglVDC0qESZke3+PAI9KkyyQA9Lb8XWehXIqeBOfchUCU6ZNQ+MT2rLebaRq5AVXR5Eux8rp0YmfEuyLUmxanAa4A4oPDMUAZ8x2
+    ufoLicenseKey: QWRBVm1UZi8vLy8vQUFBQUtLM0ZFNXE3VEVaQ3U3bE5LeENITlFBSm5wclo4M0d3YnJuSkVuRGVkazRQZ2JZU2RYU0phVGx3WDlMN2lUbXRvQXBvZWZtaU1zbkJ4dzgvTjA3djB2UkFTVnlPcThXQW8vOXBtb2RQckhTUjl3aEk5ZE1iRmIzNGhFQXdkVVZQUWk3bEwyajFqaEs3ak5uRWtEVCszREwralhLTi9FbzRSVHRYazNWTG5BSTV3SHFabjFUSjFNM3NEUWZERnYydzl5M3BnbzdiWDhCTGxtSzBIR3NIcXk0MGMwTlpTcTdTelBFRFVtaS9IUlZ4bm4zS3JIa3N3ZWFTL1ovQWE0Vm1LM1ZyRDZ0dC9KQW5uOCt4b0JsckkvQWZ2VHREVW1YMHVZR1ZPRmdidGJoeE1HL2JlZWpBZExXVzltYWI3bStXTEpFelNqeStDbHZteHNBc0Q4US9nS1pCRzhQK2NURFlqV1lUNjZTV0JXejI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 1.0.0
+    version: 8.5.9
     eulaAcceptedVersions: '{"Values":["8.5"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 15311, guid: 0000000000000000f000000000000000,
-      type: 0}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
