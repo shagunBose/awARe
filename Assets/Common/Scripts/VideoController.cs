@@ -13,6 +13,7 @@ public class VideoController : MonoBehaviour
     #region PUBLIC_MEMBERS
     public Button m_PlayButton;
     public RectTransform m_ProgressBar;
+    public GameObject popupSurvey;
     #endregion //PRIVATE_MEMBERS
 
 
@@ -27,7 +28,7 @@ public class VideoController : MonoBehaviour
         videoPlayer.started += HandleStartedEvent;
         videoPlayer.prepareCompleted += HandlePrepareCompleted;
         videoPlayer.seekCompleted += HandleSeekCompleted;
-        videoPlayer.loopPointReached += HandleLoopPointReached;
+        videoPlayer.loopPointReached += showSurvey;
 
         LogClipInfo();
     }
@@ -81,6 +82,7 @@ public class VideoController : MonoBehaviour
     #endregion // PUBLIC_METHODS
 
     #region PRIVATE_METHODS
+
     private void PauseAudio(bool pause)
     {
         for (ushort trackNumber = 0; trackNumber < videoPlayer.audioTrackCount; ++trackNumber)
@@ -118,6 +120,13 @@ public class VideoController : MonoBehaviour
     #endregion  
 
     #region DELEGATES
+    void showSurvey(VideoPlayer video)
+    {
+        popupSurvey.SetActive(true); 
+        ShowPlayButton(true);
+
+    }
+
     void HandleVideoError(VideoPlayer video, string errorMsg)
     {
         Debug.LogError("Error: " + video.clip.name + "\nError Message: " + errorMsg);
